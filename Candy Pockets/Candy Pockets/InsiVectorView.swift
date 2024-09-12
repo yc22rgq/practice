@@ -55,8 +55,8 @@ class AppsFlyerDelegateHandler: NSObject, AppsFlyerLibDelegate {
         
         // Настройка Appsflyer
         let appsflyerLib = AppsFlyerLib.shared()
-        appsflyerLib.appsFlyerDevKey = "imB2ax9VBfwdDoJ9ChumUn"
-        appsflyerLib.appleAppID = "6670279888"
+        appsflyerLib.appsFlyerDevKey = "yourdevkey"
+        appsflyerLib.appleAppID = "yourappid"
         
         // Настройка Deep Linking (если требуется)
         appsflyerLib.waitForATTUserAuthorization(timeoutInterval: 60)
