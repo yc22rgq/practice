@@ -1,0 +1,400 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC17DA392C7FBB6200965A58 /* Candy_PocketsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17DA382C7FBB6200965A58 /* Candy_PocketsApp.swift */; };
+		FC17DA3B2C7FBB6200965A58 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17DA3A2C7FBB6200965A58 /* ContentView.swift */; };
+		FC17DA3D2C7FBB6300965A58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17DA3C2C7FBB6300965A58 /* Assets.xcassets */; };
+		FC17DA402C7FBB6300965A58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC17DA3F2C7FBB6300965A58 /* Preview Assets.xcassets */; };
+		FC17DA472C7FBB8700965A58 /* SlotMachineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC17DA462C7FBB8700965A58 /* SlotMachineView.swift */; };
+		FC1A274A2C821099004986E6 /* InsiVectorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1A27492C821099004986E6 /* InsiVectorView.swift */; };
+		FC3EFD562C810F7100F3776E /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = FC3EFD552C810F7100F3776E /* AppsFlyerLib */; };
+		FC928FB42C82064700AD4C11 /* SettingsFletter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC928FB32C82064700AD4C11 /* SettingsFletter.swift */; };
+		FCF2C4712C860FEC00D5A564 /* FasInsterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCF2C4702C860FEC00D5A564 /* FasInsterView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FC17DA352C7FBB6200965A58 /* Candy Pockets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Candy Pockets.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC17DA382C7FBB6200965A58 /* Candy_PocketsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Candy_PocketsApp.swift; sourceTree = "<group>"; };
+		FC17DA3A2C7FBB6200965A58 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FC17DA3C2C7FBB6300965A58 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC17DA3F2C7FBB6300965A58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FC17DA462C7FBB8700965A58 /* SlotMachineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlotMachineView.swift; sourceTree = "<group>"; };
+		FC1A27492C821099004986E6 /* InsiVectorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsiVectorView.swift; sourceTree = "<group>"; };
+		FC9191C22C82267700B32A5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC928FB32C82064700AD4C11 /* SettingsFletter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsFletter.swift; sourceTree = "<group>"; };
+		FCF2C4702C860FEC00D5A564 /* FasInsterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FasInsterView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC17DA322C7FBB6200965A58 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC3EFD562C810F7100F3776E /* AppsFlyerLib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC17DA2C2C7FBB6200965A58 = {
+			isa = PBXGroup;
+			children = (
+				FC17DA372C7FBB6200965A58 /* Candy Pockets */,
+				FC17DA362C7FBB6200965A58 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC17DA362C7FBB6200965A58 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC17DA352C7FBB6200965A58 /* Candy Pockets.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC17DA372C7FBB6200965A58 /* Candy Pockets */ = {
+			isa = PBXGroup;
+			children = (
+				FC17DA382C7FBB6200965A58 /* Candy_PocketsApp.swift */,
+				FC17DA3A2C7FBB6200965A58 /* ContentView.swift */,
+				FC17DA462C7FBB8700965A58 /* SlotMachineView.swift */,
+				FC928FB32C82064700AD4C11 /* SettingsFletter.swift */,
+				FC17DA3C2C7FBB6300965A58 /* Assets.xcassets */,
+				FC17DA3E2C7FBB6300965A58 /* Preview Content */,
+				FC1A27492C821099004986E6 /* InsiVectorView.swift */,
+				FCF2C4702C860FEC00D5A564 /* FasInsterView.swift */,
+				FC9191C22C82267700B32A5F /* Info.plist */,
+			);
+			path = "Candy Pockets";
+			sourceTree = "<group>";
+		};
+		FC17DA3E2C7FBB6300965A58 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				FC17DA3F2C7FBB6300965A58 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC17DA342C7FBB6200965A58 /* Candy Pockets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC17DA432C7FBB6300965A58 /* Build configuration list for PBXNativeTarget "Candy Pockets" */;
+			buildPhases = (
+				FC17DA312C7FBB6200965A58 /* Sources */,
+				FC17DA322C7FBB6200965A58 /* Frameworks */,
+				FC17DA332C7FBB6200965A58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Candy Pockets";
+			packageProductDependencies = (
+				FC3EFD552C810F7100F3776E /* AppsFlyerLib */,
+			);
+			productName = "Candy Pockets";
+			productReference = FC17DA352C7FBB6200965A58 /* Candy Pockets.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC17DA2D2C7FBB6200965A58 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					FC17DA342C7FBB6200965A58 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+				};
+			};
+			buildConfigurationList = FC17DA302C7FBB6200965A58 /* Build configuration list for PBXProject "Candy Pockets" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC17DA2C2C7FBB6200965A58;
+			packageReferences = (
+				FC3EFD542C810F7100F3776E /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+			);
+			productRefGroup = FC17DA362C7FBB6200965A58 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC17DA342C7FBB6200965A58 /* Candy Pockets */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC17DA332C7FBB6200965A58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17DA402C7FBB6300965A58 /* Preview Assets.xcassets in Resources */,
+				FC17DA3D2C7FBB6300965A58 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC17DA312C7FBB6200965A58 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC17DA3B2C7FBB6200965A58 /* ContentView.swift in Sources */,
+				FC17DA472C7FBB8700965A58 /* SlotMachineView.swift in Sources */,
+				FC928FB42C82064700AD4C11 /* SettingsFletter.swift in Sources */,
+				FC1A274A2C821099004986E6 /* InsiVectorView.swift in Sources */,
+				FCF2C4712C860FEC00D5A564 /* FasInsterView.swift in Sources */,
+				FC17DA392C7FBB6200965A58 /* Candy_PocketsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		FC17DA412C7FBB6300965A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC17DA422C7FBB6300965A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC17DA442C7FBB6300965A58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Candy Pockets/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/fixik/XcodeProjects/Swift/Work/Candy Pockets/Candy Pockets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "APP NAME tracks your IDFA (Identifier for Advertisers) and transmits it to Appsflyer. This facilitates refining our audience targeting and enhances the effectiveness of our advertisements.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candyp.ockets.Candy-Pockets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC17DA452C7FBB6300965A58 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Candy Pockets/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "/Users/fixik/XcodeProjects/Swift/Work/Candy Pockets/Candy Pockets/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSUserTrackingUsageDescription = "APP NAME tracks your IDFA (Identifier for Advertisers) and transmits it to Appsflyer. This facilitates refining our audience targeting and enhances the effectiveness of our advertisements.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.candyp.ockets.Candy-Pockets";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC17DA302C7FBB6200965A58 /* Build configuration list for PBXProject "Candy Pockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17DA412C7FBB6300965A58 /* Debug */,
+				FC17DA422C7FBB6300965A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC17DA432C7FBB6300965A58 /* Build configuration list for PBXNativeTarget "Candy Pockets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC17DA442C7FBB6300965A58 /* Debug */,
+				FC17DA452C7FBB6300965A58 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FC3EFD542C810F7100F3776E /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.15.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FC3EFD552C810F7100F3776E /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FC3EFD542C810F7100F3776E /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FC17DA2D2C7FBB6200965A58 /* Project object */;
+}

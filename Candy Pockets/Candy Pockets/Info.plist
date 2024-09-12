@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>NSTracking</key>
+	<string>APP NAME tracks your IDFA (Identifier for Advertisers) and transmits it to Appsflyer. This facilitates refining our audience targeting and enhances the effectiveness of our advertisements.</string>
+	<key>UIAppFonts</key>
+	<array/>
+	<key>UILaunchScreen</key>
+	<dict>
+		<key>UIImageName</key>
+		<string></string>
+	</dict>
+</dict>
+</plist>
